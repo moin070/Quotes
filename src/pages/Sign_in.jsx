@@ -26,11 +26,11 @@ const Sign_in = () => {
   // calling users data through api
   let [api, setapi] = useState([]);
 
-  useEffect(() => {
-    axios.get("http://localhost:3000/users").then((res) => {
-      setapi(res.data);
-    });
-  }, []);
+  // useEffect(() => {
+  //   axios.get("http://localhost:3000/users").then((res) => {
+  //     setapi(res.data);
+  //   });
+  // }, []);
 
   // data to validate to login
   // let hanleclick=(e)=>{
